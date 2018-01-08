@@ -19,3 +19,5 @@ is $c.name, "Zip::foo", 'did we get the right name?';
 my $d := subname "Zip::bar" => { ... };
 ok $d ~~ Callable, 'did we get a Callable back?';
 is $d.name, "Zip::bar", 'did we get the right name?';
+
+# vim: ft=perl6 expandtab sw=4
