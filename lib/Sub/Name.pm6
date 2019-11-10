@@ -1,6 +1,6 @@
 use v6.c;
 
-unit module Sub::Name:ver<0.0.6>:auth<cpan:ELIZABETH>;
+unit module Sub::Name:ver<0.0.7>:auth<cpan:ELIZABETH>;
 
 # only export the proto
 proto sub subname(|) is export {*}
@@ -25,7 +25,7 @@ sub set-subname($name, &callable) {
 
 =head1 NAME
 
-Sub::Name - Port of Perl 5's Sub::Name
+Sub::Name - Port of Perl's Sub::Name
 
 =head1 SYNOPSIS
 
@@ -56,12 +56,12 @@ differently, which can be very useful for debugging.
 
 Elizabeth Mattijsen <liz@wenzperl.nl>
 
-Re-imagined from the Perl 5 version as part of the CPAN Butterfly Plan.
-Perl 5 version originally developed by Matthijs van Duin.
+Re-imagined from the Perl version as part of the CPAN Butterfly Plan.
+Perl version originally developed by Matthijs van Duin.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018 Elizabeth Mattijsen
+Copyright 2018-2019 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

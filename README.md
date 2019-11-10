@@ -1,9 +1,7 @@
-[![Build Status](https://travis-ci.org/lizmat/Sub-Name.svg?branch=master)](https://travis-ci.org/lizmat/Sub-Name)
-
 NAME
 ====
 
-Sub::Name - Port of Perl 5's Sub::Name
+Sub::Name - Port of Perl's Sub::Name
 
 SYNOPSIS
 ========
@@ -32,12 +30,12 @@ AUTHOR
 
 Elizabeth Mattijsen <liz@wenzperl.nl>
 
-Re-imagined from the Perl 5 version as part of the CPAN Butterfly Plan. Perl 5 version originally developed by Matthijs van Duin.
+Re-imagined from the Perl version as part of the CPAN Butterfly Plan. Perl version originally developed by Matthijs van Duin.
 
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018 Elizabeth Mattijsen
+Copyright 2018-2019 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
