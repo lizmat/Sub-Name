@@ -1,4 +1,4 @@
-use v6.c;
+use v6.*;
 use Test;
 use Sub::Name;
 
@@ -55,4 +55,4 @@ my $e := subname "Zip::baz" => { ... }; # Pair case
 ok $e ~~ Callable, 'did we get a Callable back?';
 is $e.name, "Zip::baz", 'did we get the right name?';
 
-# vim: ft=perl6 expandtab sw=4
+# vim: expandtab shiftwidth=4

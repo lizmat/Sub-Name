@@ -1,7 +1,7 @@
 NAME
 ====
 
-Sub::Name - Port of Perl's Sub::Name
+Raku port of Perl's Sub::Name module
 
 SYNOPSIS
 ========
@@ -14,6 +14,8 @@ SYNOPSIS
 
 DESCRIPTION
 ===========
+
+This module tries to mimic the behaviour of Perl's `Sub::Name` module as closely as possible in the Raku Programming Language.
 
 This module has only one function, which is also exported by default:
 
@@ -35,7 +37,7 @@ Re-imagined from the Perl version as part of the CPAN Butterfly Plan. Perl versi
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018-2020 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

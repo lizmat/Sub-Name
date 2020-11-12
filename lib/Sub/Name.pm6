@@ -1,6 +1,6 @@
-use v6.c;
+use v6.*;
 
-unit module Sub::Name:ver<0.0.7>:auth<cpan:ELIZABETH>;
+unit module Sub::Name:ver<0.0.8>:auth<cpan:ELIZABETH>;
 
 # only export the proto
 proto sub subname(|) is export {*}
@@ -25,7 +25,7 @@ sub set-subname($name, &callable) {
 
 =head1 NAME
 
-Sub::Name - Port of Perl's Sub::Name
+Raku port of Perl's Sub::Name module
 
 =head1 SYNOPSIS
 
@@ -36,6 +36,9 @@ Sub::Name - Port of Perl's Sub::Name
   $callable = subname foo => { ... };
 
 =head1 DESCRIPTION
+
+This module tries to mimic the behaviour of Perl's C<Sub::Name> module
+as closely as possible in the Raku Programming Language.
 
 This module has only one function, which is also exported by default:
 
@@ -61,10 +64,10 @@ Perl version originally developed by Matthijs van Duin.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018-2020 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
 =end pod
 
-# vim: ft=perl6 expandtab sw=4
+# vim: expandtab shiftwidth=4

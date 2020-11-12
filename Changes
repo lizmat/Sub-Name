@@ -2,6 +2,11 @@ Revision history for Sub::Name
 
 {{$NEXT}}
 
+0.0.8  2020-11-12T20:38:43+01:00
+    - Change name of distribution
+    - Force to highest possible Raku version
+    - Update copyright year
+
 0.0.7  2019-11-10T20:02:23+01:00
     - Changed Perl 5 to Perl
 
