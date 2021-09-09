@@ -1,6 +1,6 @@
 use v6.*;
 
-unit module Sub::Name:ver<0.0.8>:auth<cpan:ELIZABETH>;
+unit module Sub::Name:ver<0.0.9>:auth<zef:lizmat>;
 
 # only export the proto
 proto sub subname(|) is export {*}
@@ -57,14 +57,14 @@ differently, which can be very useful for debugging.
 
 =head1 AUTHOR
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 Re-imagined from the Perl version as part of the CPAN Butterfly Plan.
 Perl version originally developed by Matthijs van Duin.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018-2020 Elizabeth Mattijsen
+Copyright 2018, 2019, 2020, 2021 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

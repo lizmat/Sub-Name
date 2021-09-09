@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/lizmat/Sub-Name/workflows/test/badge.svg)](https://github.com/lizmat/Sub-Name/actions)
+
 NAME
 ====
 
@@ -30,14 +32,14 @@ Note that for anonymous closures (Callables that reference lexicals declared out
 AUTHOR
 ======
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 Re-imagined from the Perl version as part of the CPAN Butterfly Plan. Perl version originally developed by Matthijs van Duin.
 
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018-2020 Elizabeth Mattijsen
+Copyright 2018, 2019, 2020, 2021 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
